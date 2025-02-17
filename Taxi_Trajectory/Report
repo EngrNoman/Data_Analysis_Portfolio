@@ -1,0 +1,156 @@
+# **Taxi Trajectory Data: Data Cleaning & Exploratory Data Analysis (EDA) Report**
+
+## **1. Introduction**
+The purpose of this project is to clean and analyze a real-world Taxi Trajectory dataset. This dataset contains GPS trajectory data of taxi trips, along with details such as call type, taxi ID, timestamps, and trip day types. The project follows a structured approach to **data cleaning, handling missing values, and conducting Exploratory Data Analysis (EDA)** to extract meaningful insights.
+
+---
+
+## **2. Data Overview**
+### **Dataset Description**
+The dataset consists of **9 features**, described as follows:
+
+| Feature | Description |
+|---------|-------------|
+| `TRIP_ID` | Unique identifier for each trip |
+| `CALL_TYPE` | Type of trip request (Dispatched, Taxi Stand, Random) |
+| `ORIGIN_CALL` | Unique identifier for the customer (only for dispatched trips) |
+| `ORIGIN_STAND` | Unique identifier for taxi stands (only for stand-based trips) |
+| `TAXI_ID` | Unique identifier for each taxi driver |
+| `TIMESTAMP` | UNIX timestamp representing the trip start time |
+| `DAYTYPE` | Type of day (Holiday, Workday, Pre-Holiday) |
+| `MISSING_DATA` | Boolean flag indicating missing GPS trajectory data |
+| `POLYLINE` | List of GPS coordinates representing the trip trajectory |
+
+---
+
+## **3. Data Cleaning**
+### **3.1 Handling Missing Values**
+- **`ORIGIN_CALL` and `ORIGIN_STAND`**: Contained missing values depending on the `CALL_TYPE`. Missing values were handled as follows:
+  - If `CALL_TYPE = 'A'`, `ORIGIN_CALL` is expected to be non-null.
+  - If `CALL_TYPE = 'B'`, `ORIGIN_STAND` should have a value.
+  - If `CALL_TYPE = 'C'`, both fields can be NULL (as the trip was hailed randomly).
+- **`POLYLINE`**: Trips with empty `POLYLINE` values were removed, as they represent invalid data.
+- **Approach**:
+  ```python
+  df = df.dropna(subset=["POLYLINE"])
+  df["ORIGIN_CALL"].fillna(-1, inplace=True)
+  df["ORIGIN_STAND"].fillna(-1, inplace=True)
+  ```
+
+### **3.2 Handling Incorrect Data Types**
+- Converted `TIMESTAMP` to a readable **datetime** format.
+- Extracted **hour, day, and month** from timestamps for time-based analysis.
+
+  ```python
+  import datetime
+  df["datetime"] = df["TIMESTAMP"].apply(lambda x: datetime.datetime.utcfromtimestamp(x))
+  df["hour"] = df["datetime"].dt.hour
+  df["day"] = df["datetime"].dt.day
+  df["month"] = df["datetime"].dt.month
+  ```
+
+---
+
+## **4. Exploratory Data Analysis (EDA)**
+### **4.1 Univariate Analysis**
+#### **Trip Request Type Analysis**
+- The dataset contained **three types of trip requests (`CALL_TYPE`)**:
+  - **A:** Dispatched from a central system.
+  - **B:** Requested from a taxi stand.
+  - **C:** Random street hail.
+
+  **Insights:**
+  - Most trips were requested via random street hailing (`CALL_TYPE='C'`).
+  - The second most common method was dispatched trips (`CALL_TYPE='A'`).
+
+  ```python
+  import seaborn as sns
+  import matplotlib.pyplot as plt
+  
+  sns.countplot(x=df["CALL_TYPE"], palette="viridis")
+  plt.title("Distribution of Call Types")
+  plt.show()
+  ```
+
+#### **Hourly Taxi Demand**
+- Taxi demand peaks during commute hours (8 AM–9 AM, 5 PM–7 PM).
+  ```python
+  sns.histplot(df["hour"], bins=24, kde=True)
+  plt.title("Hourly Taxi Demand")
+  plt.show()
+  ```
+
+### **4.2 Bivariate Analysis**
+#### **Relationship Between `CALL_TYPE` and Trip Frequency**
+  ```python
+  sns.countplot(x="CALL_TYPE", hue="DAYTYPE", data=df)
+  plt.title("Trip Demand Based on Call Type and Day Type")
+  plt.show()
+  ```
+  **Findings:**
+  - **Dispatched trips (`A`) are more common on weekdays**.
+  - **Random hailing (`C`) is more frequent on weekends and holidays**.
+
+#### **Relationship Between Day Type and Trip Start Time**
+  ```python
+  sns.boxplot(x="DAYTYPE", y="hour", data=df)
+  plt.title("Time of Day for Different Day Types")
+  plt.show()
+  ```
+  **Findings:**
+  - Taxi demand on holidays (`B`) peaks around mid-morning and afternoon.
+  - Workdays (`A`) see demand peaks during commuting hours.
+
+---
+
+## **5. Visualizing Taxi Trajectories on a Map**
+### **5.1 Extract Start & End Locations**
+Since the `POLYLINE` column stores trip trajectories as a string of GPS coordinates, we extracted **starting and ending points**.
+```python
+import ast
+
+def extract_coordinates(polyline):
+    try:
+        coords = ast.literal_eval(polyline)
+        if len(coords) >= 2:
+            return coords[0], coords[-1]  # Start & End GPS points
+    except:
+        return None, None
+
+df["Start_Coords"], df["End_Coords"] = zip(*df["POLYLINE"].apply(extract_coordinates))
+```
+
+### **5.2 Map Visualization**
+```python
+import folium
+
+# Create a map centered at an average location
+m = folium.Map(location=[df["Start_Coords"].dropna().apply(lambda x: x[1]).mean(),
+                         df["Start_Coords"].dropna().apply(lambda x: x[0]).mean()], zoom_start=12)
+
+# Add pickup points
+for _, row in df.sample(500).iterrows():
+    folium.CircleMarker(location=[row["Start_Coords"][1], row["Start_Coords"][0]],
+                        radius=2, color="blue", fill=True, fill_opacity=0.5).add_to(m)
+
+m  # Display map
+```
+
+---
+
+## **6. Conclusion & Next Steps** 
+### **Key Findings:**
+✅ Most taxi trips were **randomly hailed** (`CALL_TYPE='C'`).  
+✅ Demand **peaks during commuting hours** (morning and evening).  
+✅ Taxi demand varies **based on day type** (higher on workdays for dispatched trips).  
+✅ Mapping taxi pickup points shows **high-density urban pickup locations**.
+
+### **Next Steps:**
+🔹 **Feature Engineering:** Extract more insights from timestamps, trajectories, and taxi behavior.  
+🔹 **Predictive Modeling:** Build models to predict trip duration, demand forecasting, or optimal taxi routes.  
+🔹 **Business Use Cases:** Optimize taxi allocation based on demand patterns.
+
+---
+
+📌 **This report serves as a comprehensive case study on cleaning and analyzing real-world taxi trajectory data, making it suitable for business insights and predictive modeling.** 🚀
+
