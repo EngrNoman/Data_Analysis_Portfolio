@@ -1,0 +1,511 @@
+order_id,date,product,category,price,quantity,total_sales,customer,region,salesperson
+1481,2024-11-23,Microwave,Home Appliances,1276.0,wrong_quantity,1276.0,Sean,West,Mark
+1450,2024-07-04,Washing Machine,Home Appliances,931.0,4.0,3724.0,Joseph,West,Mark
+1476,2024-07-08,,Electronics,232.0,2.0,464.0,Thomas,South,Mark
+1435,2025-01-05,Jacket,Fashion,112.0,4.0,,Noah,North,Michael
+1369,2024-06-17,Vacuum Cleaner,Home Appliances,1106.0,5.0,5530.0,Jesse,West,Lisa
+1056,2024-06-29,Laptop,Electronics,717.0,1.0,717.0,Andrew,South,Michael
+1323,2025-03-02,Tablet,Electronics,814.0,,814.0,John,South,Michael
+1077,2024-09-21,Hat,Fashion,586.0,2.0,1172.0,Steven,,Lisa
+1470,2024-08-19,TV,Electronics,1416.0,2.0,2832.0,Stephen,North,Emily
+1348,2024-04-13,Blender,Home Appliances,928.0,2.0,1856.0,Raymond,East,Emily
+1416,2024-09-24,Jeans,Fashion,728.0,4.0,2912.0,Nathan,West,Lisa
+1221,2024-04-24,Phone,Electronics,586.0,2.0,1172.0,Megan,North,Emily
+1118,2024-05-19,Vacuum Cleaner,Home Appliances,1195.0,1.0,1195.0,Chad,West,Michael
+1250,2025-02-26,Laptop,Electronics,788.0,2.0,1576.0,Jeffery,East,Michael
+1174,2024-07-24,Refrigerator,Home Appliances,107.0,,214.0,Virginia,West,Mark
+1094,2024-12-08,Blender,Home Appliances,822.0,3.0,2466.0,Lisa,North,Emily
+1326,2024-11-11,Hat,Fashion,1373.0,5.0,6865.0,Christopher,South,Michael
+1276,2024-08-07,Laptop,Electronics,341.0,1.0,341.0,Becky,North,John
+1343,2024-04-10,Washing Machine,Home Appliances,,2.0,1894.0,Christina,West,John
+1071,2024-03-31,Laptop,Electronics,830.0,4.0,3320.0,Kelly,South,Emily
+1292,2024-09-11,Blender,Home Appliances,134.0,5.0,670.0,Beth,South,Michael
+1010,2024-09-15,Phone,Electronics,55.0,1.0,55.0,David,East,Lisa
+1251,2024-06-01,Laptop,Electronics,1495.0,4.0,5980.0,David,West,Lisa
+1409,2024-08-08,Jacket,Fashion,82.0,2.0,164.0,Janice,South,Mark
+1424,2024-11-27,Jeans,Fashion,651.0,3.0,1953.0,Alan,West,Michael
+1452,2024-08-13,Hat,Fashion,,4.0,3672.0,Maria,West,Michael
+1173,2024-12-26,Microwave,Home Appliances,81.0,4.0,324.0,Reginald,East,Michael
+1031,2024-07-10,Vacuum Cleaner,Home Appliances,1021.0,4.0,4084.0,Allison,East,John
+1449,2024-08-07,Blender,Home Appliances,932.0,4.0,3728.0,Blake,South,Lisa
+1091,2024-09-15,Laptop,Electronics,1481.0,4.0,5924.0,James,North,John
+1382,2025-01-14,Headphones,Electronics,1042.0,2.0,2084.0,Beth,North,Lisa
+1132,2024-05-21,Headphones,Electronics,1393.0,2.0,2786.0,Jason,East,John
+1365,2024-04-16,Refrigerator,Home Appliances,802.0,4.0,3208.0,Daniel,West,Emily
+1074,2024-11-16,Tablet,Electronics,1205.0,1.0,1205.0,Debra,North,Mark
+1211,2025-03-15,Jacket,Fashion,618.0,3.0,1854.0,Jennifer,West,Michael
+1330,2024-08-30,Laptop,Electronics,134.0,4.0,536.0,John,West,Emily
+1370,2024-06-01,Microwave,Home Appliances,577.0,3.0,1731.0,Tami,East,John
+1102,2025-02-01,Laptop,Electronics,,2.0,1908.0,Collin,West,Michael
+1219,2024-08-08,Blender,Home Appliances,605.0,3.0,1815.0,Nicole,North,Lisa
+1155,2024-04-07,Hat,Fashion,642.0,4.0,2568.0,Eric,North,Michael
+1226,2024-12-28,Laptop,Electronics,134.0,1.0,134.0,Lisa,East,Emily
+1400,2024-06-21,TV,Electronics,1386.0,5.0,6930.0,David,East,Mark
+1064,2024-08-27,Tablet,Electronics,972.0,3.0,2916.0,Gina,West,Emily
+1003,2025-01-19,Jeans,Fashion,1160.0,3.0,3480.0,Eric,North,John
+1442,2024-08-03,Vacuum Cleaner,Home Appliances,1069.0,5.0,5345.0,Michael,North,John
+1341,2024-10-22,Shoes,Fashion,939.0,4.0,3756.0,Paul,South,Mark
+1083,2024-04-12,Jacket,Fashion,1294.0,4.0,5176.0,Alex,South,Emily
+1285,2024-12-19,Microwave,Home Appliances,871.0,2.0,1742.0,Anthony,East,Michael
+1210,2024-05-17,Jeans,Fashion,268.0,5.0,1340.0,Ian,North,Lisa
+1472,2024-05-26,Tablet,Electronics,110.0,3.0,330.0,Megan,West,Mark
+1182,2024-12-21,Washing Machine,Home Appliances,1469.0,2.0,2938.0,Jennifer,North,Michael
+1078,2024-09-27,Hat,Fashion,1042.0,4.0,4168.0,Michelle,West,Lisa
+1297,2025-01-28,Headphones,Electronics,1378.0,3.0,4134.0,David,North,Mark
+1453,2024-10-01,Shoes,Fashion,509.0,3.0,,Monica,North,Mark
+1496,2024-06-30,Microwave,Home Appliances,862.0,5.0,4310.0,Michelle,North,Mark
+1426,2024-06-02,T-shirt,Fashion,1327.0,1.0,1327.0,,South,Lisa
+1034,2025-02-20,TV,Electronics,1083.0,5.0,5415.0,James,West,John
+1080,2025-03-03,Washing Machine,Home Appliances,1095.0,5.0,5475.0,Stephanie,South,Mark
+1418,2024-05-07,Headphones,Electronics,294.0,1.0,294.0,Lance,South,Mark
+1168,2024-12-30,Vacuum Cleaner,Home Appliances,623.0,1.0,623.0,Sandra,East,Mark
+1069,2024-08-11,Vacuum Cleaner,Home Appliances,1073.0,1.0,1073.0,Steven,South,Emily
+1001,2025-02-13,TV,Electronics,373.0,5.0,1865.0,Timothy,North,Lisa
+1085,2024-04-30,Vacuum Cleaner,Home Appliances,invalid_price,wrong_quantity,6410.0,Lauren,North,Michael
+1012,2024-09-01,,Electronics,953.0,2.0,1906.0,Thomas,West,Lisa
+1230,2024-04-12,Jeans,Fashion,383.0,2.0,766.0,Robert,West,Emily
+1023,2024-06-05,Shoes,Fashion,157.0,1.0,157.0,Renee,South,Mark
+1324,2024-09-13,Vacuum Cleaner,Home Appliances,143.0,5.0,715.0,Judy,West,Mark
+1079,2024-10-10,Hat,Fashion,1089.0,4.0,4356.0,Christian,West,Lisa
+1248,2025-02-07,Phone,Electronics,,5.0,6530.0,Louis,East,Mark
+1073,2024-09-12,Blender,Home Appliances,1045.0,1.0,1045.0,Jason,West,Michael
+1475,2024-09-22,,Home Appliances,835.0,,4175.0,Nicole,South,Emily
+1336,2024-11-25,Jeans,,1382.0,2.0,,Andrew,West,John
+1019,2024-06-10,Washing Machine,Home Appliances,190.0,3.0,570.0,Michael,North,Emily
+1281,2024-07-26,Blender,Home Appliances,342.0,wrong_quantity,1368.0,Linda,South,Emily
+1125,2024-07-05,T-shirt,Fashion,1030.0,3.0,3090.0,Jillian,East,Emily
+1443,2024-11-27,Refrigerator,Home Appliances,893.0,2.0,1786.0,,South,Michael
+1249,2024-04-16,Tablet,Electronics,1493.0,5.0,7465.0,Alejandro,,Emily
+1040,2025-01-23,Jacket,Fashion,555.0,4.0,2220.0,Tammy,South,Lisa
+1461,2024-10-02,Shoes,Fashion,677.0,4.0,2708.0,Timothy,South,John
+1047,2024-08-21,Microwave,Home Appliances,389.0,4.0,1556.0,Richard,North,Mark
+1302,2024-11-01,Jeans,Fashion,1324.0,4.0,5296.0,Robert,East,John
+1196,2024-11-19,Laptop,Electronics,101.0,1.0,101.0,Cheryl,West,Emily
+1359,2025-03-15,Jacket,Fashion,1168.0,3.0,3504.0,David,East,Michael
+1105,2024-11-08,Laptop,Electronics,1126.0,5.0,5630.0,Ashley,East,Emily
+1282,2024-06-30,Jeans,Fashion,698.0,1.0,698.0,Carol,West,Mark
+1149,2024-11-24,Blender,Home Appliances,1323.0,3.0,3969.0,Angela,East,Emily
+1156,2025-03-02,Jacket,Fashion,1355.0,2.0,2710.0,Charles,South,Lisa
+1447,2024-09-02,Microwave,Home Appliances,201.0,5.0,1005.0,Melissa,West,John
+1183,2024-04-03,Laptop,Electronics,929.0,2.0,1858.0,Alexander,East,John
+1070,2024-07-23,Phone,Electronics,1180.0,1.0,1180.0,Brittany,North,Michael
+1245,2024-12-02,Shoes,Fashion,1393.0,3.0,4179.0,James,East,Emily
+1299,2024-05-28,Microwave,Home Appliances,709.0,5.0,3545.0,Peggy,West,
+1413,2024-06-12,Tablet,Electronics,1304.0,1.0,1304.0,Joseph,West,Lisa
+1255,2024-10-14,Laptop,Electronics,815.0,1.0,815.0,Taylor,North,Lisa
+1303,2024-10-27,,Electronics,678.0,1.0,678.0,Dylan,East,Lisa
+1494,2024-12-20,TV,Electronics,781.0,5.0,3905.0,Katherine,West,Michael
+1181,2024-09-10,Phone,Electronics,1247.0,wrong_quantity,4988.0,Russell,East,Mark
+1375,2024-05-30,Blender,Home Appliances,636.0,,1272.0,Rhonda,West,John
+1133,2024-04-09,Microwave,Home Appliances,680.0,1.0,680.0,Emily,West,Lisa
+1342,2024-09-11,Laptop,Electronics,1161.0,4.0,4644.0,Michael,West,John
+1438,2024-06-02,Hat,Fashion,931.0,5.0,4655.0,Bryan,East,Emily
+1177,2024-12-26,Blender,Home Appliances,845.0,4.0,3380.0,Tyler,East,Michael
+1311,2024-09-08,T-shirt,Fashion,1202.0,5.0,6010.0,Jennifer,East,Mark
+1350,2024-12-08,,Electronics,798.0,3.0,2394.0,Theodore,West,Lisa
+1486,2024-07-10,Jacket,Fashion,754.0,5.0,3770.0,James,North,Michael
+1138,2025-01-20,Hat,Fashion,219.0,3.0,657.0,Gary,East,Michael
+1498,2024-07-25,T-shirt,Fashion,invalid_price,3.0,2430.0,Susan,South,Mark
+1272,2024-10-31,Blender,Home Appliances,584.0,wrong_quantity,1168.0,Robert,West,
+1441,2024-06-20,Jacket,Fashion,448.0,4.0,1792.0,Chad,West,Lisa
+1354,2024-09-14,T-shirt,Fashion,298.0,4.0,1192.0,Daryl,East,Emily
+1087,2024-07-29,Shoes,Fashion,537.0,4.0,2148.0,Molly,North,Emily
+1076,2024-12-29,Hat,Fashion,951.0,3.0,2853.0,Madeline,South,John
+1448,2025-03-14,Vacuum Cleaner,Home Appliances,928.0,1.0,928.0,Jessica,West,John
+1016,2024-05-09,Shoes,Fashion,1422.0,,5688.0,Joshua,South,Mark
+1204,2025-01-25,Tablet,Electronics,288.0,2.0,576.0,Kimberly,West,John
+1275,2024-04-15,Phone,Electronics,1024.0,4.0,4096.0,Keith,North,Mark
+1394,2024-05-01,Shoes,Fashion,335.0,2.0,670.0,,South,Emily
+1020,2024-09-29,Tablet,Electronics,966.0,3.0,2898.0,Jennifer,North,Emily
+1454,2024-05-17,Vacuum Cleaner,Home Appliances,1234.0,3.0,3702.0,Lindsey,North,Mark
+1339,2025-01-09,Refrigerator,Home Appliances,645.0,2.0,1290.0,Steven,South,Lisa
+1057,2025-01-01,Microwave,Home Appliances,1038.0,5.0,5190.0,Ricardo,South,Emily
+1334,2024-10-26,Phone,Electronics,194.0,wrong_quantity,776.0,Alexandra,South,Emily
+1484,2024-03-21,T-shirt,Fashion,193.0,3.0,579.0,Timothy,East,Emily
+1239,2024-07-24,Tablet,Electronics,353.0,2.0,706.0,Rita,North,John
+1406,2024-06-03,TV,Electronics,1477.0,3.0,4431.0,Susan,East,Mark
+1308,2024-09-12,Refrigerator,Home Appliances,1053.0,3.0,3159.0,Aaron,South,John
+1469,2024-09-08,Jeans,Fashion,907.0,3.0,2721.0,Lynn,South,Lisa
+1432,2024-08-18,Vacuum Cleaner,Home Appliances,225.0,2.0,450.0,Amy,North,Lisa
+1490,2024-06-03,TV,Electronics,295.0,1.0,295.0,Richard,West,Michael
+1026,2024-09-23,Jacket,Fashion,645.0,5.0,3225.0,David,East,Emily
+1366,2024-04-21,Laptop,Electronics,684.0,5.0,3420.0,Anthony,North,Lisa
+1043,2024-04-29,Laptop,Electronics,604.0,1.0,,Joseph,North,Lisa
+1141,2024-08-28,TV,Electronics,,2.0,1688.0,Jeffery,East,John
+1419,2025-03-01,Microwave,Home Appliances,374.0,5.0,1870.0,Charles,East,Emily
+1317,2024-04-25,Shoes,Fashion,1254.0,5.0,6270.0,Amber,West,John
+1127,2024-08-24,Shoes,Fashion,836.0,2.0,1672.0,Susan,,Michael
+1333,2025-01-28,Microwave,,681.0,1.0,681.0,Carl,South,Lisa
+1032,2024-06-13,,Fashion,159.0,1.0,159.0,Timothy,North,Lisa
+1114,2024-07-17,Microwave,Home Appliances,1287.0,4.0,5148.0,Jacob,South,Michael
+1154,2025-02-08,Jacket,Fashion,1030.0,2.0,2060.0,Nathan,South,Michael
+1212,2024-10-17,Headphones,Electronics,1494.0,3.0,4482.0,Elizabeth,East,Lisa
+1423,2025-01-08,Washing Machine,,948.0,,3792.0,Alicia,West,Emily
+1058,2025-02-10,Blender,Home Appliances,561.0,4.0,2244.0,Harry,North,Emily
+1267,2024-10-09,Jacket,Fashion,78.0,4.0,312.0,Peter,North,Mark
+1025,2024-10-04,Refrigerator,Home Appliances,327.0,5.0,1635.0,Kristine,South,Mark
+1018,2024-07-23,Vacuum Cleaner,Home Appliances,991.0,3.0,2973.0,Phillip,South,Lisa
+1186,2024-08-20,Shoes,Fashion,834.0,4.0,3336.0,William,West,
+1067,2024-09-27,Tablet,Electronics,790.0,3.0,2370.0,Valerie,South,Michael
+1403,2024-11-06,Vacuum Cleaner,Home Appliances,654.0,3.0,1962.0,Caitlin,South,John
+1397,2024-07-04,Jacket,Fashion,245.0,2.0,490.0,Lynn,East,Mark
+1095,2024-06-16,Refrigerator,Home Appliances,invalid_price,1.0,803.0,Ronald,South,Lisa
+1497,2024-04-15,Headphones,Electronics,143.0,5.0,715.0,David,East,Lisa
+1355,2024-09-29,Washing Machine,Home Appliances,986.0,5.0,4930.0,Melissa,West,Michael
+1024,2025-01-11,Jeans,Fashion,1250.0,3.0,3750.0,Devin,North,Mark
+1232,2024-09-10,Laptop,Electronics,289.0,5.0,1445.0,William,West,Emily
+1266,2024-06-20,Jeans,Fashion,946.0,5.0,4730.0,Katherine,North,Emily
+1209,2024-06-25,Vacuum Cleaner,Home Appliances,554.0,3.0,1662.0,Brian,North,John
+1006,2025-03-01,Jacket,Fashion,310.0,1.0,,Ethan,South,Lisa
+1117,2024-08-19,T-shirt,Fashion,1308.0,5.0,6540.0,Ricky,South,
+1046,2025-02-19,Headphones,Electronics,338.0,2.0,676.0,Emily,South,Emily
+1395,2024-06-29,Headphones,Electronics,330.0,,660.0,Corey,North,Lisa
+1017,2024-03-31,Headphones,Electronics,759.0,4.0,3036.0,Trevor,South,John
+1473,2024-06-13,TV,Electronics,663.0,4.0,2652.0,Glenn,West,Mark
+1462,2024-10-17,Headphones,Electronics,1272.0,1.0,1272.0,Alicia,West,Michael
+1004,2024-07-18,Phone,Electronics,invalid_price,4.0,3800.0,,West,Lisa
+1228,2024-06-16,Shoes,Fashion,365.0,2.0,730.0,John,South,Mark
+1483,2024-06-21,Shoes,Fashion,701.0,5.0,3505.0,Jennifer,North,Mark
+1061,2024-06-16,Laptop,Electronics,1095.0,5.0,5475.0,Brad,South,John
+1111,2024-07-17,Headphones,Electronics,996.0,4.0,3984.0,Christopher,West,Michael
+1325,2025-03-03,TV,Electronics,583.0,3.0,1749.0,Natasha,South,John
+1298,2024-08-13,Jeans,Fashion,601.0,4.0,2404.0,Heather,North,John
+1030,2024-07-11,TV,Electronics,499.0,5.0,2495.0,Terri,North,Lisa
+1193,2025-02-15,Blender,Home Appliances,611.0,4.0,2444.0,Brian,South,Emily
+1465,2025-01-18,Tablet,Electronics,383.0,4.0,1532.0,Joseph,West,Mark
+1027,2024-12-23,Laptop,Electronics,354.0,1.0,354.0,Karen,East,Emily
+1008,2024-12-13,T-shirt,Fashion,800.0,4.0,3200.0,Jillian,East,Lisa
+1463,2024-08-27,Microwave,Home Appliances,977.0,2.0,1954.0,Brian,West,Mark
+1109,2024-07-02,Hat,Fashion,656.0,4.0,2624.0,Christine,South,Emily
+1038,2024-07-03,Vacuum Cleaner,Home Appliances,520.0,2.0,1040.0,Eric,West,Lisa
+1158,2024-07-27,Microwave,Home Appliances,1342.0,3.0,4026.0,Wendy,South,Michael
+1477,2024-12-22,Jeans,Fashion,1403.0,2.0,,David,South,Mark
+1119,2024-08-16,T-shirt,Fashion,1274.0,3.0,3822.0,Duane,East,Emily
+1115,2025-02-26,,Home Appliances,705.0,5.0,3525.0,Jerome,East,John
+1176,2024-08-17,Blender,Home Appliances,1413.0,2.0,2826.0,Jeffrey,West,Michael
+1195,2024-08-22,Jacket,Fashion,1344.0,3.0,4032.0,Sean,South,Mark
+1319,2025-03-05,Microwave,Home Appliances,978.0,4.0,3912.0,Diana,West,Lisa
+1145,2024-05-31,Refrigerator,Home Appliances,247.0,1.0,247.0,John,,Lisa
+1377,2024-10-12,Jacket,Fashion,657.0,1.0,657.0,Tracey,West,Emily
+1430,2025-01-19,Laptop,Electronics,1114.0,2.0,2228.0,Adam,East,Mark
+1205,2024-08-13,Blender,Home Appliances,559.0,1.0,559.0,Kimberly,West,Mark
+1322,2024-12-13,Shoes,Fashion,1060.0,5.0,5300.0,Antonio,North,Emily
+1363,2024-09-06,Jacket,Fashion,850.0,2.0,1700.0,Sandra,South,John
+1455,2024-06-25,Refrigerator,Home Appliances,1237.0,5.0,6185.0,Emily,West,John
+1142,2024-08-03,Jeans,Fashion,304.0,5.0,1520.0,Christina,North,Mark
+1495,2025-03-13,Headphones,Electronics,685.0,1.0,685.0,Lisa,East,John
+1068,2024-06-22,Phone,Electronics,497.0,4.0,1988.0,Lauren,North,Michael
+1262,2024-12-09,T-shirt,Fashion,133.0,4.0,532.0,Kristina,West,Mark
+1169,2024-08-10,T-shirt,Fashion,248.0,2.0,496.0,Katherine,East,Mark
+1381,2024-10-31,Vacuum Cleaner,Home Appliances,750.0,3.0,2250.0,Heather,North,Emily
+1384,2024-07-30,TV,,1136.0,1.0,1136.0,John,North,John
+1246,2024-05-02,Refrigerator,Home Appliances,1188.0,2.0,2376.0,Emily,West,Emily
+1194,2024-12-29,Washing Machine,Home Appliances,122.0,3.0,366.0,Erin,East,Lisa
+1256,2025-02-10,TV,Electronics,939.0,wrong_quantity,3756.0,Amber,East,Emily
+1110,2025-02-04,Blender,Home Appliances,660.0,3.0,1980.0,Daniel,East,Michael
+1488,2024-08-29,Phone,Electronics,978.0,1.0,978.0,Penny,West,Lisa
+1146,2025-01-15,T-shirt,Fashion,1294.0,4.0,5176.0,Amber,East,Lisa
+1093,2025-02-21,Vacuum Cleaner,Home Appliances,1161.0,1.0,1161.0,Colton,West,Lisa
+1153,2024-05-26,Microwave,Home Appliances,876.0,5.0,4380.0,Gary,South,Emily
+1229,2024-08-03,Jeans,Fashion,1147.0,1.0,1147.0,Jesse,South,Michael
+1417,2024-09-06,Hat,Fashion,549.0,2.0,1098.0,Michele,East,Emily
+1084,2024-06-22,TV,Electronics,749.0,5.0,3745.0,Nathan,East,Emily
+1273,2024-03-31,Blender,Home Appliances,838.0,1.0,838.0,Samantha,East,John
+1166,2024-09-02,Washing Machine,Home Appliances,972.0,3.0,2916.0,Emily,North,Mark
+1164,2024-12-02,Refrigerator,Home Appliances,171.0,4.0,684.0,Glenn,West,Mark
+1200,2024-09-13,,Fashion,953.0,4.0,3812.0,Jessica,South,Michael
+1238,2024-10-04,Headphones,Electronics,1104.0,3.0,3312.0,Julian,West,Michael
+1075,2024-08-22,Hat,Fashion,931.0,4.0,3724.0,Kristen,East,Emily
+1315,2024-05-19,Tablet,Electronics,1044.0,3.0,3132.0,Melissa,East,Lisa
+1223,2024-04-13,Jacket,,623.0,5.0,3115.0,Sylvia,West,Lisa
+1480,2024-11-08,Washing Machine,Home Appliances,922.0,5.0,4610.0,Russell,North,Michael
+1120,2024-07-20,Hat,Fashion,242.0,1.0,242.0,Laura,North,Lisa
+1287,2024-11-15,Phone,Electronics,121.0,1.0,121.0,Walter,South,
+1305,2024-06-20,Jeans,Fashion,1097.0,1.0,1097.0,Shelby,West,Mark
+1425,2024-08-02,Jeans,Fashion,96.0,4.0,384.0,Bethany,West,Emily
+1361,2024-10-15,,Home Appliances,938.0,2.0,1876.0,Louis,East,Michael
+1408,2024-03-25,TV,Electronics,75.0,4.0,300.0,Stephanie,West,Michael
+1235,2024-06-04,Blender,Home Appliances,624.0,2.0,1248.0,Johnny,,Emily
+1381,2024-10-31,Vacuum Cleaner,Home Appliances,750.0,3.0,2250.0,Heather,North,Emily
+1479,2025-03-15,Microwave,Home Appliances,418.0,5.0,2090.0,Michele,East,John
+1391,2025-03-08,Shoes,Fashion,894.0,2.0,1788.0,Daniel,East,John
+1279,2024-09-09,Washing Machine,Home Appliances,740.0,5.0,3700.0,Steven,East,John
+1037,2024-06-24,T-shirt,Fashion,353.0,3.0,1059.0,Stephanie,North,Emily
+1197,2024-08-25,Jeans,Fashion,906.0,3.0,2718.0,Michelle,South,Mark
+1140,2024-11-03,Jeans,Fashion,616.0,4.0,2464.0,Corey,East,John
+1372,2024-07-18,Phone,Electronics,610.0,5.0,3050.0,Garrett,West,John
+1254,2024-12-13,Phone,Electronics,1182.0,5.0,5910.0,Corey,East,Lisa
+1290,2024-08-23,Jeans,Fashion,362.0,1.0,362.0,John,East,Michael
+1291,2024-04-30,Vacuum Cleaner,Home Appliances,136.0,2.0,272.0,Mitchell,West,Emily
+1060,2025-02-10,Blender,Home Appliances,459.0,2.0,918.0,Traci,North,Emily
+1112,2025-03-07,Blender,Home Appliances,1037.0,5.0,5185.0,Amanda,North,Mark
+1090,2024-05-07,Jeans,Fashion,516.0,3.0,1548.0,Christopher,East,Michael
+1269,2024-05-12,Washing Machine,Home Appliances,1197.0,1.0,1197.0,Anne,North,Michael
+1007,2025-01-16,Shoes,Fashion,763.0,3.0,2289.0,Victoria,East,Emily
+1368,2024-03-19,TV,Electronics,310.0,5.0,1550.0,Nathaniel,North,John
+1352,2024-08-20,Shoes,Fashion,725.0,3.0,2175.0,Emma,East,Mark
+1393,2024-04-24,Blender,Home Appliances,1281.0,3.0,3843.0,Ana,South,Michael
+1159,2024-08-12,Jacket,Fashion,741.0,4.0,2964.0,Chase,North,Lisa
+1151,2024-11-03,T-shirt,Fashion,1055.0,2.0,2110.0,Bridget,North,Emily
+1178,2024-11-20,Shoes,Fashion,935.0,3.0,2805.0,Melanie,North,Michael
+1422,2024-05-27,Washing Machine,Home Appliances,269.0,4.0,1076.0,Maria,West,John
+1185,2024-09-09,Blender,Home Appliances,557.0,4.0,2228.0,Tammy,,Mark
+1288,2024-10-28,Microwave,Home Appliances,922.0,3.0,2766.0,Haley,West,Mark
+1011,2024-11-02,Washing Machine,Home Appliances,518.0,3.0,1554.0,Debra,North,Mark
+1389,2025-01-31,Jeans,Fashion,1396.0,2.0,2792.0,Christopher,North,Michael
+1104,2024-06-28,Microwave,Home Appliances,352.0,1.0,352.0,Christopher,South,Michael
+1082,2024-09-28,TV,Electronics,1486.0,5.0,7430.0,Adrian,South,Mark
+1039,2024-09-27,Tablet,Electronics,768.0,4.0,3072.0,Denise,North,John
+1321,2025-02-16,Refrigerator,Home Appliances,981.0,2.0,1962.0,Christopher,North,Michael
+1199,2025-03-17,Vacuum Cleaner,Home Appliances,414.0,5.0,2070.0,Michael,East,Michael
+1263,2024-06-30,T-shirt,Fashion,938.0,2.0,1876.0,Matthew,,Michael
+1147,2024-11-18,Washing Machine,Home Appliances,1139.0,2.0,2278.0,Todd,East,Michael
+1401,2024-12-27,Refrigerator,Home Appliances,763.0,2.0,1526.0,Douglas,East,John
+1148,2025-03-09,T-shirt,Fashion,280.0,3.0,840.0,Victor,West,Michael
+1313,2024-11-26,T-shirt,Fashion,907.0,3.0,2721.0,Natalie,East,Michael
+1292,2024-09-11,Blender,Home Appliances,134.0,5.0,670.0,Beth,South,Michael
+1124,2024-12-11,Jeans,Fashion,invalid_price,2.0,2214.0,Andrea,South,Mark
+1376,2024-10-25,T-shirt,Fashion,242.0,3.0,726.0,Kimberly,West,Lisa
+1097,2025-01-31,Vacuum Cleaner,Home Appliances,788.0,3.0,2364.0,William,South,Michael
+1144,2024-09-08,Jacket,Fashion,624.0,1.0,624.0,,East,Emily
+1240,2024-07-06,TV,Electronics,988.0,1.0,988.0,Brendan,South,Michael
+1278,2024-06-19,Jacket,Fashion,378.0,2.0,756.0,Anthony,North,Lisa
+1098,2024-12-26,Jeans,Fashion,1478.0,5.0,7390.0,Stefanie,West,John
+1357,2024-08-12,Vacuum Cleaner,Home Appliances,250.0,2.0,500.0,Craig,East,Emily
+1123,2024-09-26,Blender,Home Appliances,634.0,2.0,1268.0,Jeffrey,West,Lisa
+1184,2025-03-12,Vacuum Cleaner,Home Appliances,1198.0,5.0,5990.0,Anthony,North,Emily
+1203,2025-02-23,Blender,Home Appliances,1213.0,4.0,4852.0,Stephanie,North,Lisa
+1247,2024-11-13,TV,Electronics,316.0,1.0,316.0,Amanda,West,Emily
+1312,2024-07-19,Washing Machine,Home Appliances,,4.0,1312.0,,South,Mark
+1415,2024-04-04,T-shirt,Fashion,334.0,4.0,1336.0,Alejandro,West,Michael
+1358,2024-08-01,Jeans,Fashion,415.0,1.0,415.0,Alexis,North,Michael
+1306,2024-06-09,Headphones,Electronics,559.0,4.0,2236.0,Jonathan,West,Mark
+1404,2024-10-20,Shoes,Fashion,224.0,,448.0,Joe,East,Michael
+1383,2024-05-27,Tablet,Electronics,647.0,1.0,647.0,Heather,West,Michael
+1126,2025-01-24,Jacket,Fashion,155.0,1.0,155.0,Isaac,East,John
+1489,2024-06-01,Hat,Fashion,74.0,2.0,148.0,Doris,West,Emily
+1224,2024-09-17,Jeans,Fashion,197.0,5.0,985.0,Kayla,South,Emily
+1427,2024-04-01,Vacuum Cleaner,Home Appliances,930.0,3.0,2790.0,Veronica,North,Mark
+1220,2024-11-27,Blender,Home Appliances,1192.0,5.0,5960.0,Rebecca,South,Lisa
+1130,2024-07-18,Blender,Home Appliances,534.0,4.0,2136.0,Amanda,South,Emily
+1429,2024-06-14,Vacuum Cleaner,,1204.0,4.0,4816.0,Louis,East,Mark
+1485,2024-11-10,Jacket,Fashion,185.0,1.0,185.0,Luke,North,Lisa
+1335,2024-06-11,Laptop,Electronics,406.0,5.0,2030.0,Phillip,West,Lisa
+1385,2024-08-09,T-shirt,Fashion,863.0,3.0,2589.0,John,North,Emily
+1410,2025-02-19,Shoes,Fashion,1161.0,4.0,4644.0,Jennifer,North,Mark
+1362,2025-03-08,Shoes,Fashion,411.0,5.0,2055.0,Andrew,East,Mark
+1300,2024-05-27,Microwave,Home Appliances,789.0,2.0,1578.0,Melissa,East,Michael
+1295,2024-06-25,Microwave,Home Appliances,195.0,2.0,390.0,Melissa,West,
+1374,2025-02-16,T-shirt,Fashion,980.0,3.0,2940.0,Stacy,East,Emily
+1347,2024-10-09,Phone,Electronics,696.0,3.0,2088.0,Billy,,Mark
+1113,2024-10-29,Headphones,Electronics,612.0,2.0,1224.0,Michael,East,John
+1180,2024-04-08,Shoes,Fashion,342.0,5.0,1710.0,Brandon,North,Emily
+1478,2025-01-24,Blender,Home Appliances,invalid_price,5.0,3320.0,Megan,East,Lisa
+1353,2024-05-29,TV,Electronics,884.0,4.0,3536.0,Brandon,South,John
+1337,2025-01-21,Phone,Electronics,838.0,5.0,4190.0,Kathleen,North,Lisa
+1492,2024-08-23,Laptop,Electronics,764.0,3.0,2292.0,Tyler,West,John
+1405,2024-03-20,Microwave,Home Appliances,828.0,wrong_quantity,1656.0,Jacob,West,Mark
+1234,2024-09-11,Refrigerator,,685.0,5.0,3425.0,Jeffery,West,Michael
+1457,2024-04-07,Laptop,Electronics,496.0,4.0,1984.0,Benjamin,West,Mark
+1318,2024-09-05,Hat,Fashion,278.0,2.0,556.0,April,North,
+1165,2025-01-15,Jeans,Fashion,1232.0,2.0,2464.0,Eddie,East,John
+1137,2024-11-27,T-shirt,Fashion,1442.0,1.0,1442.0,Mariah,West,Emily
+1198,2024-08-10,Microwave,Home Appliances,844.0,4.0,3376.0,Barry,East,Michael
+1259,2024-03-20,Shoes,Fashion,1465.0,5.0,7325.0,Elizabeth,East,Emily
+1233,2024-06-14,Hat,Fashion,invalid_price,4.0,2964.0,Natalie,East,Michael
+1116,2025-03-11,Microwave,Home Appliances,523.0,,1046.0,Steven,South,Emily
+1121,2025-03-10,Headphones,Electronics,767.0,5.0,3835.0,Michael,East,John
+1356,2024-11-02,Microwave,Home Appliances,906.0,1.0,906.0,Brent,East,Lisa
+1225,2024-11-08,Jacket,Fashion,1471.0,5.0,7355.0,Kristen,North,Mark
+1411,2025-01-21,Shoes,Fashion,153.0,2.0,306.0,Stephen,East,Lisa
+1439,2024-09-29,Vacuum Cleaner,Home Appliances,548.0,4.0,2192.0,Eric,North,Mark
+1128,2024-07-09,Phone,Electronics,882.0,5.0,4410.0,Timothy,East,Mark
+1286,2024-09-20,Shoes,Fashion,751.0,1.0,751.0,Tim,South,Lisa
+1433,2024-03-30,Blender,Home Appliances,560.0,1.0,560.0,Mary,South,Michael
+1108,2024-04-21,Shoes,Fashion,397.0,4.0,1588.0,Michelle,West,Michael
+1378,2025-02-19,Shoes,Fashion,643.0,3.0,1929.0,Zachary,South,Lisa
+1332,2024-11-24,Hat,Fashion,410.0,3.0,1230.0,Brenda,South,Michael
+1134,2024-11-15,Jacket,Fashion,585.0,1.0,585.0,Devin,South,Michael
+1371,2024-06-07,Refrigerator,Home Appliances,1225.0,4.0,4900.0,Gina,South,Emily
+1045,2024-11-15,Blender,Home Appliances,842.0,1.0,842.0,Julie,South,Lisa
+1471,2024-04-06,Refrigerator,Home Appliances,581.0,4.0,2324.0,Anthony,South,Lisa
+1066,2024-12-14,Blender,Home Appliances,208.0,4.0,832.0,Nicholas,North,Lisa
+1284,2024-10-20,Phone,Electronics,1019.0,2.0,2038.0,James,East,John
+1086,2024-11-15,Jeans,Fashion,596.0,1.0,596.0,Susan,South,Lisa
+1243,2025-03-15,Microwave,Home Appliances,1161.0,5.0,5805.0,Maria,South,John
+1187,2024-10-15,Shoes,Fashion,565.0,2.0,1130.0,Kyle,South,John
+1392,2025-01-25,Vacuum Cleaner,Home Appliances,131.0,1.0,131.0,Walter,South,Lisa
+1160,2025-02-23,Hat,Fashion,642.0,4.0,2568.0,Danielle,South,John
+1013,2024-08-22,Refrigerator,Home Appliances,1261.0,1.0,1261.0,Samantha,South,Michael
+1036,2024-06-15,Refrigerator,Home Appliances,1220.0,1.0,1220.0,Suzanne,North,Mark
+1029,2025-01-15,Phone,Electronics,1237.0,3.0,3711.0,Jason,East,Mark
+1171,2024-08-29,Vacuum Cleaner,Home Appliances,1164.0,4.0,4656.0,Julie,South,Michael
+1143,2024-03-24,Blender,Home Appliances,190.0,4.0,,Monica,East,Michael
+1407,2024-12-30,Washing Machine,Home Appliances,398.0,3.0,1194.0,Anthony,South,Emily
+1056,2024-06-29,Laptop,Electronics,717.0,1.0,717.0,Andrew,South,Michael
+1222,2024-12-20,Hat,Fashion,235.0,2.0,470.0,Natalie,North,John
+1096,2024-08-08,Refrigerator,Home Appliances,545.0,5.0,2725.0,Amanda,South,Michael
+1052,2024-12-27,TV,Electronics,1354.0,1.0,1354.0,Charlotte,North,Mark
+1241,2025-02-03,Tablet,Electronics,247.0,1.0,247.0,Brian,North,Mark
+1399,2024-10-06,Headphones,Electronics,1121.0,5.0,5605.0,Gabrielle,East,Michael
+1387,2025-01-24,Blender,Home Appliances,222.0,5.0,1110.0,Amy,North,
+1179,2024-07-25,Laptop,Electronics,71.0,4.0,284.0,Jessica,North,John
+1042,2024-11-27,Jacket,Fashion,1080.0,4.0,4320.0,Misty,North,John
+1445,2024-06-13,T-shirt,Fashion,163.0,2.0,326.0,Patricia,West,Emily
+1396,2024-03-24,Blender,Home Appliances,630.0,wrong_quantity,1890.0,Matthew,West,John
+1207,2024-12-10,Vacuum Cleaner,Home Appliances,1469.0,3.0,4407.0,Nichole,East,Mark
+1283,2024-12-21,Headphones,Electronics,1430.0,1.0,1430.0,Phyllis,East,Michael
+1255,2024-10-14,Laptop,Electronics,815.0,1.0,815.0,Taylor,North,Lisa
+1421,2024-09-24,Blender,Home Appliances,447.0,3.0,1341.0,,South,Lisa
+1005,2024-11-20,Tablet,Electronics,1382.0,5.0,6910.0,Bryan,South,Lisa
+1257,2024-12-22,Jacket,Fashion,,2.0,1580.0,Carrie,North,John
+1458,2024-10-27,Refrigerator,Home Appliances,927.0,5.0,4635.0,Phillip,West,Emily
+1101,2024-07-21,Refrigerator,,63.0,5.0,315.0,Aaron,South,Michael
+1227,2024-11-02,Laptop,Electronics,275.0,1.0,275.0,Gregory,,John
+1020,2024-09-29,Tablet,Electronics,966.0,3.0,2898.0,Jennifer,North,Emily
+1214,2024-06-17,Laptop,Electronics,745.0,2.0,1490.0,Melissa,West,Michael
+1437,2024-04-24,Headphones,Electronics,1113.0,4.0,4452.0,Brian,West,John
+1172,2024-06-22,Washing Machine,Home Appliances,1440.0,4.0,5760.0,Rachel,North,Lisa
+1099,2024-08-29,Hat,Fashion,1035.0,3.0,3105.0,Jonathan,West,
+1293,2024-11-07,Hat,Fashion,983.0,5.0,4915.0,Angela,South,John
+1216,2024-05-09,TV,Electronics,709.0,5.0,3545.0,,South,Michael
+1062,2024-05-25,Hat,Fashion,611.0,2.0,1222.0,Carlos,North,Emily
+1048,2024-09-10,Vacuum Cleaner,Home Appliances,530.0,2.0,1060.0,Richard,East,Mark
+1033,2024-05-07,Laptop,Electronics,1461.0,2.0,2922.0,Rodney,North,Mark
+1268,2024-07-30,Laptop,Electronics,105.0,,315.0,Levi,West,John
+1328,2024-09-30,Tablet,Electronics,389.0,1.0,389.0,Lauren,North,Emily
+1201,2024-05-27,Microwave,Home Appliances,56.0,4.0,224.0,Charlene,North,Michael
+1456,2024-11-19,Jeans,Fashion,invalid_price,2.0,2932.0,Christopher,East,Mark
+1028,2024-10-28,Refrigerator,Home Appliances,587.0,4.0,2348.0,Melanie,East,Michael
+1398,2024-04-25,Blender,Home Appliances,1157.0,2.0,2314.0,Christine,East,Mark
+1231,2024-10-04,Vacuum Cleaner,Home Appliances,1378.0,3.0,4134.0,Kathleen,South,Emily
+1261,2025-02-26,Vacuum Cleaner,Home Appliances,178.0,2.0,356.0,James,South,John
+1379,2025-01-16,TV,Electronics,252.0,3.0,756.0,David,West,Lisa
+1289,2024-05-31,,Fashion,1409.0,1.0,1409.0,Kristi,North,Emily
+1163,2024-09-06,Shoes,Fashion,871.0,3.0,2613.0,Jennifer,North,John
+1434,2025-02-12,T-shirt,Fashion,484.0,5.0,2420.0,Stephanie,South,Lisa
+1139,2024-07-21,Headphones,Electronics,1476.0,3.0,4428.0,Denise,North,John
+1063,2024-05-05,Washing Machine,Home Appliances,1331.0,4.0,5324.0,Amber,South,Mark
+1136,2024-05-17,T-shirt,Fashion,524.0,1.0,524.0,Joel,North,Lisa
+1129,2025-03-14,Blender,Home Appliances,,1.0,1429.0,David,East,Michael
+1487,2024-11-02,Jeans,Fashion,310.0,5.0,1550.0,Emma,West,Emily
+1009,2025-01-27,Phone,Electronics,836.0,1.0,836.0,Michele,West,Lisa
+1327,2024-07-15,Blender,Home Appliances,1140.0,wrong_quantity,5700.0,Mary,North,Emily
+1474,2024-06-01,Blender,Home Appliances,752.0,2.0,1504.0,Patrick,East,Lisa
+1065,2024-09-29,Vacuum Cleaner,Home Appliances,1102.0,4.0,,Travis,South,Lisa
+1301,2025-01-03,Jacket,Fashion,1065.0,5.0,5325.0,John,West,Michael
+1015,2024-07-14,Microwave,Home Appliances,invalid_price,2.0,2064.0,David,South,Emily
+1157,2025-02-08,Laptop,Electronics,840.0,5.0,4200.0,Haley,North,Lisa
+1041,2024-06-29,Washing Machine,Home Appliances,1226.0,2.0,2452.0,Scott,South,Lisa
+1380,2025-02-18,Tablet,Electronics,588.0,4.0,2352.0,Edward,South,Emily
+1470,2024-08-19,TV,Electronics,1416.0,2.0,2832.0,Stephen,North,Emily
+1412,2024-07-07,Washing Machine,Home Appliances,1229.0,2.0,2458.0,Nancy,East,Michael
+1217,2024-04-19,T-shirt,Fashion,1308.0,5.0,6540.0,Jason,West,Michael
+1280,2024-12-18,Jeans,Fashion,171.0,4.0,684.0,Robert,North,John
+1482,2024-03-26,Phone,Electronics,923.0,5.0,4615.0,James,North,John
+1440,2024-12-19,Headphones,Electronics,209.0,4.0,836.0,Margaret,South,John
+1338,2024-04-15,Blender,Home Appliances,1498.0,4.0,5992.0,Tammy,,Mark
+1237,2024-11-30,Phone,Electronics,705.0,3.0,2115.0,Emily,East,Emily
+1208,2025-02-05,Microwave,Home Appliances,232.0,3.0,696.0,Samuel,North,Mark
+1213,2025-02-04,TV,Electronics,401.0,1.0,401.0,Michael,East,John
+1296,2024-07-16,Shoes,Fashion,745.0,1.0,745.0,Amanda,South,John
+1500,2024-11-13,TV,Electronics,872.0,2.0,1744.0,Jessica,North,Michael
+1252,2024-04-22,Washing Machine,Home Appliances,549.0,2.0,1098.0,Elizabeth,South,Lisa
+1499,2024-04-09,Headphones,Electronics,1072.0,1.0,1072.0,Susan,North,John
+1468,2024-08-19,Jacket,Fashion,1328.0,3.0,3984.0,Travis,East,Emily
+1304,2024-05-14,Vacuum Cleaner,Home Appliances,622.0,2.0,1244.0,Joseph,North,Lisa
+1351,2025-01-04,Jeans,Fashion,1218.0,4.0,4872.0,Nancy,West,Mark
+1270,2024-10-05,Jacket,Fashion,1308.0,3.0,3924.0,Kelsey,West,Emily
+1202,2024-08-12,Tablet,Electronics,1289.0,1.0,1289.0,Patricia,East,John
+1162,2024-06-19,Phone,Electronics,805.0,2.0,1610.0,Joseph,North,Mark
+1044,2025-03-04,TV,Electronics,1400.0,4.0,5600.0,Bradley,West,Michael
+1218,2024-11-09,Vacuum Cleaner,Home Appliances,731.0,1.0,731.0,Douglas,East,Mark
+1402,2024-10-04,Phone,Electronics,1356.0,2.0,2712.0,Richard,West,Mark
+1191,2025-01-09,Phone,Electronics,542.0,2.0,1084.0,Denise,North,Mark
+1310,2024-11-18,Laptop,Electronics,1258.0,2.0,2516.0,Carol,West,Mark
+1260,2024-12-28,Microwave,Home Appliances,189.0,2.0,378.0,Shelia,North,John
+1106,2025-01-19,Shoes,Fashion,1403.0,1.0,1403.0,Deborah,East,Lisa
+1054,2024-05-24,TV,Electronics,365.0,3.0,1095.0,Bianca,South,Mark
+1390,2024-04-17,Jeans,Fashion,1264.0,3.0,3792.0,Kim,West,Emily
+1002,2024-12-19,Jacket,Fashion,814.0,2.0,1628.0,Ashley,North,John
+1451,2024-04-09,Washing Machine,Home Appliances,683.0,4.0,2732.0,Michael,West,Michael
+1493,2024-03-27,Refrigerator,Home Appliances,942.0,4.0,3768.0,Daniel,East,Lisa
+1050,2024-09-18,T-shirt,Fashion,232.0,5.0,1160.0,Elizabeth,North,Emily
+1420,2024-10-25,TV,Electronics,905.0,3.0,2715.0,Patricia,West,Michael
+1081,2024-11-01,Shoes,Fashion,1498.0,5.0,,Bridget,West,Lisa
+1206,2024-08-22,Blender,Home Appliances,1229.0,2.0,2458.0,Kelly,North,Lisa
+1035,2024-09-07,T-shirt,Fashion,1029.0,5.0,5145.0,Stephanie,South,Lisa
+1431,2024-09-27,Refrigerator,Home Appliances,498.0,2.0,996.0,John,West,Mark
+1264,2024-12-10,TV,Electronics,439.0,2.0,878.0,Adrian,West,Emily
+1428,2025-01-18,Microwave,Home Appliances,1202.0,3.0,3606.0,Jennifer,West,Mark
+1367,2025-01-22,Laptop,Electronics,1467.0,1.0,1467.0,Melissa,West,Michael
+1092,2024-09-27,Refrigerator,Home Appliances,958.0,2.0,1916.0,,South,Emily
+1340,2024-11-27,Refrigerator,Home Appliances,338.0,2.0,676.0,Zachary,South,Mark
+1484,2024-03-21,T-shirt,Fashion,193.0,3.0,579.0,Timothy,East,Emily
+1053,2024-09-01,Shoes,,810.0,4.0,3240.0,Julia,West,Lisa
+1346,2024-09-14,Blender,Home Appliances,532.0,5.0,2660.0,Jeffrey,South,Michael
+1265,2024-09-17,Microwave,Home Appliances,1191.0,4.0,4764.0,Joshua,West,Emily
+1242,2024-04-21,Vacuum Cleaner,Home Appliances,1499.0,1.0,1499.0,Joseph,South,Lisa
+1014,2024-11-20,Shoes,Fashion,425.0,3.0,1275.0,Janet,South,Lisa
+1316,2025-02-18,Laptop,Electronics,1419.0,5.0,7095.0,Stephanie,North,Mark
+1089,2024-05-20,Shoes,Fashion,494.0,5.0,2470.0,Emily,West,Mark
+1388,2024-09-01,Blender,Home Appliances,421.0,4.0,1684.0,David,West,John
+1274,2024-09-02,Hat,Fashion,272.0,2.0,544.0,Robert,West,John
+1167,2024-07-22,Jacket,Fashion,945.0,5.0,4725.0,Margaret,North,Emily
+1329,2024-09-23,Laptop,Electronics,891.0,5.0,4455.0,Ariana,South,John
+1050,2024-09-18,T-shirt,Fashion,232.0,5.0,1160.0,Elizabeth,North,Emily
+1135,2024-05-23,Shoes,Fashion,invalid_price,5.0,4090.0,Brett,East,Lisa
+1307,2024-12-10,Microwave,Home Appliances,1323.0,5.0,6615.0,Bridget,North,John
+1491,2024-11-13,Hat,Fashion,914.0,4.0,3656.0,Michael,West,John
+1320,2024-07-14,Microwave,Home Appliances,63.0,5.0,315.0,Dawn,South,Emily
+1244,2024-04-08,Phone,Electronics,302.0,2.0,604.0,Kimberly,West,John
+1055,2025-03-15,Tablet,Electronics,1402.0,4.0,5608.0,Kelsey,West,Emily
+1364,2024-06-21,Washing Machine,Home Appliances,639.0,4.0,2556.0,Brent,East,Emily
+1051,2024-03-25,Shoes,Fashion,1355.0,1.0,1355.0,Robert,North,Lisa
+1466,2024-08-06,Jeans,Fashion,222.0,1.0,222.0,Stephen,East,Lisa
+1175,2024-04-25,Shoes,Fashion,1402.0,2.0,2804.0,Deanna,West,Michael
+1446,2024-05-24,Shoes,Fashion,697.0,1.0,697.0,Joshua,West,John
+1190,2024-11-04,Vacuum Cleaner,Home Appliances,330.0,5.0,1650.0,Robert,West,Michael
+1034,2025-02-20,TV,Electronics,1083.0,5.0,5415.0,James,West,John
+1464,2024-07-03,TV,Electronics,434.0,5.0,2170.0,Rebekah,West,John
+1188,2025-03-09,Phone,Electronics,421.0,4.0,1684.0,,West,Lisa
+1170,2024-04-15,Hat,Fashion,,1.0,1297.0,Christina,South,Lisa
+1059,2024-10-15,Refrigerator,Home Appliances,665.0,5.0,3325.0,Jessica,North,Lisa
+1049,2025-02-09,Jeans,Fashion,508.0,1.0,508.0,Alexandria,West,John
+1345,2024-04-12,Hat,Fashion,202.0,3.0,606.0,Mitchell,East,Emily
+1236,2024-11-04,Hat,Fashion,1294.0,2.0,2588.0,Daniel,West,Michael
+1253,2025-01-20,Vacuum Cleaner,Home Appliances,496.0,3.0,1488.0,Richard,West,Emily
+1022,2024-06-14,Vacuum Cleaner,,637.0,5.0,3185.0,John,West,Lisa
+1314,2024-12-11,Hat,Fashion,1388.0,1.0,1388.0,Travis,South,Michael
+1460,2024-06-05,Shoes,Fashion,782.0,1.0,782.0,William,West,John
+1161,2024-05-01,Blender,Home Appliances,416.0,2.0,832.0,Sharon,West,John
+1277,2024-04-08,T-shirt,Fashion,1334.0,1.0,1334.0,Marcus,East,Emily
+1444,2024-10-14,Tablet,Electronics,620.0,3.0,1860.0,Meghan,West,Lisa
+1192,2024-11-26,TV,Electronics,720.0,3.0,2160.0,James,East,Mark
+1386,2024-05-20,Refrigerator,Home Appliances,726.0,2.0,1452.0,Joshua,East,Emily
+1294,2025-02-14,Headphones,Electronics,1074.0,2.0,2148.0,Catherine,East,Mark
+1414,2024-06-01,Vacuum Cleaner,Home Appliances,286.0,4.0,1144.0,Jonathan,North,Michael
+1344,2025-01-05,Tablet,Electronics,676.0,1.0,676.0,James,South,
+1258,2024-09-21,Vacuum Cleaner,Home Appliances,378.0,3.0,1134.0,Jeff,East,Emily
+1309,2024-06-01,Jacket,Fashion,1281.0,3.0,3843.0,John,South,Emily
+1150,2024-07-06,Jeans,Fashion,1169.0,3.0,3507.0,Dana,West,Lisa
+1131,2024-08-03,Jacket,Fashion,164.0,3.0,492.0,Victoria,North,Emily
+1152,2024-06-27,Jacket,Fashion,576.0,5.0,2880.0,Jeremy,East,Lisa
+1360,2024-11-08,Hat,Fashion,744.0,3.0,2232.0,Regina,East,Mark
+1100,2025-02-25,Blender,Home Appliances,1034.0,2.0,2068.0,Angela,East,Michael
+1373,2025-01-23,Refrigerator,Home Appliances,1223.0,2.0,2446.0,Emily,East,Emily
+1088,2025-01-19,Jacket,Fashion,1294.0,4.0,5176.0,Marisa,North,Lisa
+1459,2024-05-23,Jeans,Fashion,1277.0,4.0,5108.0,Maria,South,Emily
+1331,2024-08-20,Jeans,Fashion,1303.0,1.0,1303.0,Christy,North,Emily
+1215,2025-02-16,T-shirt,Fashion,934.0,3.0,2802.0,Timothy,West,Michael
+1467,2025-01-14,Jeans,Fashion,1008.0,5.0,5040.0,Amber,West,Emily
+1122,2024-06-17,TV,Electronics,702.0,5.0,,Justin,North,Mark
+1347,2024-10-09,Phone,Electronics,696.0,3.0,2088.0,Billy,,Mark
+1021,2024-09-15,Phone,Electronics,156.0,3.0,468.0,Lisa,East,Michael
+1189,2024-05-16,Headphones,Electronics,1390.0,2.0,2780.0,Charles,West,John
+1072,2025-02-19,Blender,Home Appliances,686.0,2.0,1372.0,Vanessa,North,John
+1107,2025-01-13,Refrigerator,Home Appliances,1040.0,4.0,4160.0,Sydney,North,John
+1271,2024-05-21,Microwave,Home Appliances,1204.0,1.0,1204.0,Samantha,West,John
+1349,2024-05-02,Refrigerator,Home Appliances,341.0,4.0,1364.0,Christina,East,Lisa
+1436,2024-08-14,Blender,Home Appliances,1363.0,3.0,4089.0,Donna,East,Lisa
+1103,2024-05-06,Microwave,Home Appliances,1361.0,1.0,1361.0,Kyle,North,Emily
